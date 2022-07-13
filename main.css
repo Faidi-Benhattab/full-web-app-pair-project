@@ -1,5 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Shadows+Into+Light&display=swap');
-#img{
-   width: 5%;
-    height: 5.5em;
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Shadows+Into+Light&display=swap");
+* {
+  font-family: "Cormorant SC", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+#img {
+  width: 100%;
+  height: 5.5em;
+}
+.navbar a {
+  color: blueviolet;
+  text-decoration: double;
+  font-size: 1.8em;
+  font-weight: 499;
+  padding-left: 30px;
+}
+header{
+    background-color:rgb(red, green, blue);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.main{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    background: url('images/pexels-gabriela-palai-395198.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
