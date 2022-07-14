@@ -38,60 +38,43 @@ header {
 }
 .main h2 {
   color: rgb(124, 5, 137);
-  font-weight: 660 bold;
-  display: inline-block;
-  margin-top: 5px;
+  margin-top: -25px;
   font-size: 3em;
-}
-.content {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.card {
+  padding: 10px;
   background-color: rgb(88, 145, 138);
   width: 21.25em;
   box-shadow: 0 5px rgba(38, 40, 41, 0.133);
   border-radius: 10px;
   padding: 25px;
 }
-.card:hover {
+.form-group {
+  width: 38.25em;
+  background-color: rgb(234, 211, 255);
+  box-shadow: 0 5px rgb(255, 214, 214);
+  border-radius: 10px;
+  padding: 25px;
+  list-style: none;
+  display: inline-block;
+}
+#h2-id {
+  background-color: rgb(253, 207, 255);
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bolder;
+  color: rgb(200, 0, 255);
+}
+.form-group:hover {
   transform: scale(1.1);
 }
-.info h3 {
-  color: #3a6cf4;
-
-  font-size: 1.2em;
-  font-weight: 700;
-  margin: 10px;
-}
-.group {
-  color: blue;
-  font-size: 1.8em;
-  font-weight: 700;
-  border-radius: 10px;
-}
-#btn {
-  color: white;
-  font-size: 1.3em;
-  font-weight: 400;
-  background-color: #97028b;
-  font-family: 'Cormorant SC', serif;}
-#length {
-  background-color: rgb(255, 195, 254);
-}
-#unit-bg {
-  background-color: rgb(241, 218, 241);
-}
- #title-font {
-  color:#150d87;
-  font-family: 'Shadows Into Light', cursive;}
-#select-font {
-  color:#150d87;
+.labg {
+  font-family: "Cormorant SC", serif;
   font-weight: bold;
-  font-family: 'Cormorant SC', serif;
+  color: rgb(166, 70, 255);
 }
-.card #length{
-  background-color: #3a6cf4;
+#dist{
+  padding: 25px;
 }
+.card {
+
+}
+.card:hover {
+  transform: scale(1.1);}
