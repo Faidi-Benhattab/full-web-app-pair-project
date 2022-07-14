@@ -4,8 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior:smooth;
-
+  scroll-behavior: smooth;
 }
 #img {
   width: 100%;
@@ -45,25 +44,54 @@ header {
   font-size: 3em;
 }
 .content {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .card {
-  background-color: #fff;
+  background-color: rgb(88, 145, 138);
   width: 21.25em;
   box-shadow: 0 5px rgba(38, 40, 41, 0.133);
   border-radius: 10px;
-  padding:25px;
+  padding: 25px;
 }
 .card:hover {
   transform: scale(1.1);
 }
 .info h3 {
-  color:#3a6cf4;
+  color: #3a6cf4;
+
   font-size: 1.2em;
   font-weight: 700;
-  margin:10px;
+  margin: 10px;
 }
-
+.group {
+  color: blue;
+  font-size: 1.8em;
+  font-weight: 700;
+  border-radius: 10px;
+}
+#btn {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 400;
+  background-color: #97028b;
+  font-family: 'Cormorant SC', serif;}
+#length {
+  background-color: rgb(255, 195, 254);
+}
+#unit-bg {
+  background-color: rgb(241, 218, 241);
+}
+ #title-font {
+  color:#150d87;
+  font-family: 'Shadows Into Light', cursive;}
+#select-font {
+  color:#150d87;
+  font-weight: bold;
+  font-family: 'Cormorant SC', serif;
+}
+.card #length{
+  background-color: #3a6cf4;
+}
