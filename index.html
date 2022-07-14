@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Free Online Converter</title>
-        <link rel="stylesheet" href="main.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Free Online Converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
 </html>
+
 <body>
     <header>
-        <a href="index.html" class="logo"><img src="images/kisspng-computer-icons-data-conversion-religious-conversio-concert-5abceab7165c60.0123381815223302950916.jpg" alt="logo" id="img"></a>
+        <a href="index.html" class="logo"><img
+                src="images/kisspng-computer-icons-data-conversion-religious-conversio-concert-5abceab7165c60.0123381815223302950916.jpg"
+                alt="logo" id="img"></a>
         <nav class="navbar">
             <a href="#length">Distance Converter</a>
             <a href="#weights">Weight Converter</a>
@@ -18,29 +23,37 @@
     </header>
     <section class="main">
         <div>
-            <h2> Welcome !<br> is a free online Converter  just for you.</h2>
-            <h2> <br>convert  any value to the unit you want !</h2>
-</div></section>
-<section class="card" id="length">
-    <h2 class="tilte">length Converter </h2>
-    <div class="content">
-        <div class="card">
-
-            <label for="pet-select">select the unity</label>
-
-<select name="unit" id="unit-select">
-    <option value="">--choose your option--</option>
-    <option value="cm">cm</option>
-    <option value="inch">inch</option></select>
-
+            <h2> Welcome !<br> is a free online Converter just for you.</h2>
+            <h2> convert any value to the unit you want !</h2>
         </div>
-            <div class="info">
-                
+    </section>
+    <section class="card" id="length">
+        <h2 class="title" id="title-font">length Converter </h2>
+        <div class="content">
+            <div class="card" id="unit-bg">
+
+                <label  id="select-font" >select the unity</label>
+
+                <select name="unit" id="unit-select">
+                    <option value="">--choose your option--</option>
+                    <option value="cm">cm</option>
+                    <option value="inch">inch</option><br>
+                    <div class="group">
+                        <input id="inch-cm" type="number" placeholder="put the value">
+                        <button id="btn">Convert</button>
+
+                    </div>
+                </select>
+                <div class="form">
+                    
+                </div>
+
             </div>
 
+
+
         </div>
 
-    </div>
-</section>
+        </div>
+    </section>
 </body>
-
