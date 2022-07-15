@@ -45,13 +45,13 @@ function convertlen(id, val) {
   }
 }
 
-cent.addEventListener("input", function () {
+cent?.addEventListener("input", function () {
   console.log(this)
   convertlen("cm", this.value);
 });
-metre.addEventListener("input", function () {
+metre?.addEventListener("input", function () {
   convertlen("metre", this.value);
 });
-inch.addEventListener("input", function () {
+inch?.addEventListener("input", function () {
   convertlen("inch", this.value);
 });
