@@ -55,3 +55,43 @@ metre?.addEventListener("input", function () {
 inch?.addEventListener("input", function () {
   convertlen("inch", this.value);
 });
+/////temperature conversion 
+var Celsius = document.getElementById('cl');
+var Fahr = document.getElementById('fh');
+var Kelvin = document.getElementById('klv');
+function convertCelsius() {
+    let celsius = Number(this.value);
+    let celsiusToFahrenheit = (1.8 * celsius) + 32;
+    let celsiusToKelvin = celsius + 273.15;
+    Fahr.value = celsiusToFahrenheit;
+    Kelvin.value = celsiusToKelvin;
+    if(Celsius.value === '') {
+        Fahr.value = '';
+        Kelvin.value = '';
+    }
+}
+function convertFahrenheit() {
+  let fahrenheit = Number(this.value);
+  let fahrenheitToCelsius = (fahrenheit - 32) / 1.8;
+  let fahrenheitToKelvin = (fahrenheit + 459.67) * 5/9;
+  Celsius.value = fahrenheitToCelsius;
+  Kelvin.value = fahrenheitToKelvin;
+  if(Fahr.value === '') {
+      Celsius.value = '';
+      Kelvin.value = '';
+  }
+}
+function convertKelvin() {
+  let kelvinn = Number(this.value);
+  let kelvinToCelsius = kelvinn - 273.15;
+  let kelvinToFahrenheit = (kelvinn * 1.8) - 459.67;
+  Celsius.value = kelvinToCelsius;
+  Fahr.value = kelvinToFahrenheit;
+  if(Kelvin.value === '') {
+      Celsius.value = '';
+      Fahr.value = '';
+  }
+}
+Celsius?.addEventListener('input', convertCelsius);
+Fahr.addEventListener('input', convertFahrenheit);
+Kelvin.addEventListener('input', convertKelvin);
