@@ -36,7 +36,7 @@ function convertlen(id, val) {
     inch.value = val / 2.54;
   }
   if (id == "metre") {
-    cent.value = val / 100;
+    cent.value = val * 100;
     inch.value = val * 0.0254;
   }
   if (id == "inch") {
