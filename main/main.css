@@ -9,13 +9,16 @@
 #img {
   width: 100%;
   height: 5.5em;
+  opacity: 0.9;
+
 }
 .navbar a {
-  color: blueviolet;
+  color: rgb(56, 21, 90);
   text-decoration: double;
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-weight: 499;
-  padding-left: 30px;
+  padding-left: 35px; 
+  margin-right: 5%;
 }
 header {
   background-color: rgb(red, green, blue);
@@ -24,7 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 200px;
+  margin-left: 3px;
 }
 .main {
   width: 100%;
@@ -35,54 +38,56 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  
 }
 .main h2 {
-  color: rgb(124, 5, 137);
+  color: rgb(0, 0, 0);
   margin-top: -25px;
+  margin-left:10% ;
   font-size: 3em;
   padding: 10px;
-  background-color: rgb(181, 255, 246);
+  background-color: rgb(115, 115, 115);
   width: 21.25em;
   box-shadow: 0 5px rgba(38, 40, 41, 0.133);
   border-radius: 10px;
   padding: 25px;
-  opacity: 0.8;
+  opacity: 0.6;
+ ;
 }
 .form-group {
   width: 100%;
-  background-color: rgb(234, 211, 255);
-  box-shadow: 0 5px rgb(255, 214, 214);
-  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 5px rgb(0, 0, 0);
+  border-radius: 6px;
   padding: 25px;
   list-style: none;
   display: inline-block;
+  margin-left: 10%;
+  opacity: 0.6;
+  font-size: 200%;
 
 }
 #h2-id {
-  background-color: rgb(253, 207, 255);
+  background-color: #feeaff ;
   font-family: "Shadows Into Light", cursive;
   font-weight: bolder;
-  color: rgb(200, 0, 255);
+  color: rgb(0, 0, 0);
+  margin-left: 10%;
+  opacity: 0.7;
+  ;
 }
+
 .form-group:hover {
   transform: scale(1.1);
+  ;
 }
 .labg {
   font-family: "Cormorant SC", serif;
   font-weight: bold;
-  color: rgb(166, 70, 255);
+  color: rgb(37, 11, 61);
 }
-#dist{
-  padding: 25px;
-}
-.card:hover {
-  transform: scale(1.1);}
-  #box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 0.7;
-  }
+
+
   .main1 h2 {
     color: rgb(124, 5, 137);
     margin-top: -25px;
@@ -108,4 +113,26 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+#h2-id:hover{
+  transform:scale(1.1); 
+  background-color: rgb(67, 67, 67);
+
+}
+.holder{
+  size: 200vh;
+}
+.navbar{
+  width: 75%;
+  margin-right: 30px;
+  margin-right: 300px;
+}
+#welcome:hover{
+   transform: scale(1.35);
+   background-color: #545454;
+}
+#img1{
+  opacity: 0.3;
+  width: 30%;
+  
 }
